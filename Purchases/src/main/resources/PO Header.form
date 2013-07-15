@@ -1,0 +1,49 @@
+
+<form id="729401020">
+<property name="subject" value=""/>
+<property name="name" value="PO Header.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="header_creationDate" type="InputDate" id="2060967000">
+<property name="fieldName" value="header_creationDate"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;creationDate (header)quot;"/>
+<property name="inputBinding" value="{header/creationDate}"/>
+<property name="outputBinding" value="{header/creationDate}"/>
+</field>
+<field position="3" name="header_customer" type="InputText" id="1211024503">
+<property name="fieldName" value="header_customer"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customer (header)quot;"/>
+<property name="inputBinding" value="{header/customer}"/>
+<property name="outputBinding" value="{header/customer}"/>
+</field>
+<field position="4" name="header_project" type="InputText" id="59516418">
+<property name="fieldName" value="header_project"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;project (header)quot;"/>
+<property name="inputBinding" value="{header/project}"/>
+<property name="outputBinding" value="{header/project}"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="35853711">
+<property name="fieldName" value=":decorator_0"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;Purchase Order Header&lt;/h1&gt;quot;quot;esquot;,quot;quot;"/>
+</field>
+<field position="1" name=":decorator_1" type="Separator" id="1589259857">
+<property name="fieldName" value=":decorator_1"/>
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+</field>
+<dataHolder name="#FF8881" type="dataModelerEntry" outId="header" value="org.jbpm.examples.purchases.PurchaseOrderHeader" id="header"/>
+</form>
