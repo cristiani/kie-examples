@@ -4,4 +4,26 @@
 <property name="name" value="PurchaseHeader.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="1" name="header_customer" type="InputText" id="134184257">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customer (header)quot;"/>
+<property name="inputBinding" value="header/customer"/>
+<property name="outputBinding" value="header/customer"/>
+</field>
+<field position="2" name="header_project" type="InputText" id="851448903">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;project (header)quot;"/>
+<property name="inputBinding" value="header/project"/>
+<property name="outputBinding" value="header/project"/>
+</field>
+<field position="0" name="header_creationDate" type="InputDate" id="107096507">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;creationDate (header)quot;"/>
+<property name="inputBinding" value="header/creationDate"/>
+<property name="outputBinding" value="header/creationDate"/>
+</field>
+<dataHolder inputId="header" name="#0000A0" type="dataModelerEntry" outId="header" value="org.jbpm.examples.purchases.PurchaseOrderHeader" id="header"/>
 </form>
