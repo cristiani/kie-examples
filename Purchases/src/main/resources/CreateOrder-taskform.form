@@ -1,0 +1,26 @@
+
+<form id="383048022">
+<property name="subject" value=""/>
+<property name="name" value="CreateOrder-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="po_lines" type="MultipleSubform" id="1440991919">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lines (po)quot;"/>
+<property name="inputBinding" value="po_in/lines"/>
+<property name="outputBinding" value="po_out/lines"/>
+</field>
+<field position="1" name="po_header" type="Subform" id="906280020">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;header (po)quot;"/>
+<property name="inputBinding" value="po_in/header"/>
+<property name="outputBinding" value="po_out/header"/>
+</field>
+<field position="0" name="po_description" type="InputText" id="1608136205">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;description (po)quot;"/>
+<property name="inputBinding" value="po_in/description"/>
+<property name="outputBinding" value="po_out/description"/>
+</field>
+<dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
+</form>
