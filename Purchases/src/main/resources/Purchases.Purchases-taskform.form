@@ -4,23 +4,13 @@
 <property name="name" value="Purchases.Purchases-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="po_description" type="InputText" id="791450816">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="468803533">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;description (po)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="po/description"/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;h1 style=&quot;width:500px&quot;&gt;Welcome to Purchase Order Process&lt;/h1&gt;quot;quot;esquot;,quot;quot;"/>
 </field>
-<field position="2" name="po_lines" type="MultipleSubform" id="118660258">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;lines (po)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="po/lines"/>
-</field>
-<field position="1" name="po_header" type="Subform" id="329717080">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;header (po)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="po/header"/>
-</field>
-<dataHolder name="#0000A0" type="dataModelerEntry" outId="po" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="po" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 </form>
