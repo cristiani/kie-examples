@@ -53,6 +53,12 @@
 <property name="expanded" value="false"/>
 <property name="enableTableEnterData" value="false"/>
 </field>
+<field position="3" name="review" type="InputText" id="1087410168">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;review_in (review)quot;"/>
+<property name="inputBinding" value="review_in"/>
+<property name="outputBinding" value="review_out"/>
+</field>
 <dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 <dataHolder inputId="review_in" name="#A7E690" type="basicType" outId="review_out" value="java.lang.String" id="review"/>
 </form>
