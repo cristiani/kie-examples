@@ -68,7 +68,7 @@
 <property name="rangeFormula" value="{approve,Approve order;reject,Reject order;modifications,Request Modifications}"/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
+<property name="cssStyle" value="font-wieght:bold"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
