@@ -89,7 +89,7 @@
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
-<property name="formula" value="=&quot;Total: &quot; + {sum(po_lines/amount)}"/>
+<property name="formula" value="=&quot;Total: &quot; + {sum(po_lines/line_total)}"/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
