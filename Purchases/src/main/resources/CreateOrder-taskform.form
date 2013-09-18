@@ -28,10 +28,10 @@
 <property name="outputBinding" value="po_out/header"/>
 <property name="defaultSubform" value="PurchaseHeader.form"/>
 </field>
-<field position="2" name="po_description" type="InputTextArea" id="1608136205">
+<field position="3" name="po_description" type="InputTextArea" id="1608136205">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="height" value="4"/>
+<property name="height" value="3"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;"/>
@@ -51,7 +51,7 @@
 <property name="inputBinding" value="po_in/description"/>
 <property name="outputBinding" value="po_out/description"/>
 </field>
-<field position="3" name="po_lines" type="MultipleSubform" id="1440991919">
+<field position="2" name="po_lines" type="MultipleSubform" id="1440991919">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -71,8 +71,8 @@
 <property name="newItemText" value="quot;enquot;,quot;Add purchase linequot;quot;esquot;,quot;quot;"/>
 <property name="addItemText" value="quot;enquot;,quot;Add purchase linequot;quot;esquot;,quot;quot;"/>
 <property name="cancelItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="deleteItems" value="false"/>
-<property name="updateItems" value="false"/>
+<property name="deleteItems" value="true"/>
+<property name="updateItems" value="true"/>
 <property name="visualizeItems" value="false"/>
 <property name="hideCreateItem" value="false"/>
 <property name="expanded" value="true"/>
