@@ -55,7 +55,7 @@
 <property name="expanded" value="true"/>
 <property name="enableTableEnterData" value="false"/>
 </field>
-<field position="3" name="po_description" type="InputTextArea" id="1608136205">
+<field position="4" name="po_description" type="InputTextArea" id="1608136205">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="3"/>
@@ -78,23 +78,23 @@
 <property name="inputBinding" value="po_in/description"/>
 <property name="outputBinding" value="po_out/description"/>
 </field>
-<field position="4" name="121118573" type="InputText" id="121118573">
+<field position="3" name="121118573" type="InputText" id="121118573">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;InputTextArea4quot;quot;esquot;,quot;quot;"/>
+<property name="labelCSSStyle" value="padding-left:300px"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;padding-left:300pxquot;quot;enquot;,quot;Totalquot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
-<property name="formula" value="=&quot;Total: &quot; + {sum(po_lines/line_total)}"/>
+<property name="formula" value="=&quot;&lt;b&gt;&quot; + {sum(po_lines/line_total)} + &quot;&lt;/b&gt;&quot;"/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
