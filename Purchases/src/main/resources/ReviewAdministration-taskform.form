@@ -75,6 +75,14 @@
 <property name="inputBinding" value="review_in"/>
 <property name="outputBinding" value="review_out"/>
 </field>
+<field position="4" name=":decorator_0" type="HTMLLabel" id="479828166">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;quot;esquot;,quot;quot;"/>
+</field>
 <dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 <dataHolder inputId="review_in" name="#A7E690" type="basicType" outId="review_out" value="java.lang.String" id="review"/>
 </form>
