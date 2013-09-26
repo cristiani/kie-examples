@@ -4,34 +4,51 @@
 <property name="name" value="ReviewManager-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="po_description" type="InputText" id="949132437">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;description (po)quot;"/>
-<property name="inputBinding" value="po_in/description"/>
-<property name="outputBinding" value="po_out/description"/>
-</field>
-<field position="1" name="po_header" type="Subform" id="17196357">
+<field position="1" name="po_description" type="InputTextArea" id="949132437">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
+<property name="height" value="3"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;header (po)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
+<property name="size" value="50"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="po_in/description"/>
+<property name="outputBinding" value="po_out/description"/>
+</field>
+<field position="2" name="po_header" type="Subform" id="17196357">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;Headerquot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="true"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value="po_in/header"/>
 <property name="outputBinding" value="po_out/header"/>
 <property name="defaultSubform" value="PurchaseHeader.form"/>
 </field>
-<field position="2" name="po_lines" type="MultipleSubform" id="940366826">
+<field position="3" name="po_lines" type="MultipleSubform" id="940366826">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;lines (po)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;Linesquot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
@@ -49,9 +66,29 @@
 <property name="deleteItems" value="false"/>
 <property name="updateItems" value="false"/>
 <property name="visualizeItems" value="false"/>
-<property name="hideCreateItem" value="false"/>
+<property name="hideCreateItem" value="true"/>
 <property name="expanded" value="false"/>
 <property name="enableTableEnterData" value="false"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1428265360">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Review and approve order&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Please, review and approve or reject order.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Review and approve order&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Please, review and approve or reject order.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+quot;"/>
 </field>
 <dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 <dataHolder inputId="review_in" name="#A7E690" type="basicType" outId="review_out" value="java.lang.String" id="review"/>
