@@ -23,4 +23,5 @@
 <property name="outputBinding" value="po_out/lines"/>
 </field>
 <dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
+<dataHolder inputId="review_in" name="#A7E690" type="basicType" outId="review_out" value="java.lang.String" id="review"/>
 </form>
