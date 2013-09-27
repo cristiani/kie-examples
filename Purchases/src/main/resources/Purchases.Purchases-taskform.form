@@ -11,7 +11,37 @@
 <property name="label" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Purchase Order process.&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;&amp;nbsp;This process is intended to&amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Purchase Order process.&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;&amp;nbsp;This process is intended to&amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt; quot;"/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; style=&quot;width:300px&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+			&lt;p&gt;&lt;strong&gt;Purchase Order process.&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p&gt;&amp;nbsp;This process is intended to &amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; style=&quot;width:300px&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+			&lt;p&gt;&lt;strong&gt;Purchase Order process.&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p&gt;&amp;nbsp;This process is intended to &amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+quot;"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="po" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="review_admin" value="java.lang.String" id="review_admin"/>
