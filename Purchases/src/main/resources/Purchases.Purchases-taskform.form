@@ -15,10 +15,9 @@
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
-			&lt;p&gt;&lt;strong&gt;Purchase Order process.&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;
+			&lt;p&gt;This process is intended to &amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt;
 
-			&lt;hr /&gt;
-			&lt;p&gt;&amp;nbsp;This process is intended to &amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt;
+			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 			&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
@@ -32,7 +31,6 @@
 				&lt;li&gt;CFO&lt;/li&gt;
 			&lt;/ul&gt;
 
-			&lt;hr /&gt;
 			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
@@ -42,10 +40,9 @@ quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; 
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
-			&lt;p&gt;&lt;strong&gt;Purchase Order process.&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;
+			&lt;p&gt;This process is intended to &amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt;
 
-			&lt;hr /&gt;
-			&lt;p&gt;&amp;nbsp;This process is intended to &amp;nbsp; demonstrate how you can build a simple form based process with data capture, validation and a typical review and approval cycle.&lt;/p&gt;
+			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 			&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
@@ -59,7 +56,6 @@ quot;quot;esquot;,quot;&lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; 
 				&lt;li&gt;CFO&lt;/li&gt;
 			&lt;/ul&gt;
 
-			&lt;hr /&gt;
 			&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
