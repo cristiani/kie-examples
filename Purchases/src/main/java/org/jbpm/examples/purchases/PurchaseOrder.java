@@ -8,17 +8,40 @@ public class PurchaseOrder  implements java.io.Serializable {
 
 static final long serialVersionUID = 1L;
     
+    @org.kie.workbench.common.services.datamodeller.annotations.Label(value = "Total")
+    @org.kie.api.definition.type.Position(value = 3)
+    private java.lang.Double total;
+    
     @org.kie.workbench.common.services.datamodeller.annotations.Label(value = "Description")
+    @org.kie.api.definition.type.Position(value = 0)
     private java.lang.String description;
     
     @org.kie.workbench.common.services.datamodeller.annotations.Label(value = "Lines")
+    @org.kie.api.definition.type.Position(value = 2)
     private java.util.List<org.jbpm.examples.purchases.PurchaseOrderLine> lines;
     
     @org.kie.workbench.common.services.datamodeller.annotations.Label(value = "Header")
+    @org.kie.api.definition.type.Position(value = 1)
     private org.jbpm.examples.purchases.PurchaseOrderHeader header;
 
     public PurchaseOrder() {
+    }
 
+    public PurchaseOrder(java.lang.String description, org.jbpm.examples.purchases.PurchaseOrderHeader header, java.util.List<org.jbpm.examples.purchases.PurchaseOrderLine> lines, java.lang.Double total) {
+        this.description = description;
+        this.header = header;
+        this.lines = lines;
+        this.total = total;
+    }
+
+
+    
+    public java.lang.Double getTotal() {
+        return this.total;
+    }
+
+    public void setTotal(  java.lang.Double total ) {
+        this.total = total;
     }
     
     public java.lang.String getDescription() {
