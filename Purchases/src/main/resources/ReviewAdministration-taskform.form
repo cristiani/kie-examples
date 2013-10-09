@@ -33,11 +33,11 @@
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;Linesquot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Linesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
-<property name="readonly" value="true"/>
+<property name="readonly" value="false"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value="po_in/lines"/>
@@ -45,15 +45,34 @@
 <property name="defaultSubform" value="PurchaseLine.form"/>
 <property name="previewSubform" value="PurchaseLine.form"/>
 <property name="tableSubform" value="PurchaseLine.form"/>
-<property name="newItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="addItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="cancelItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="deleteItems" value="false"/>
 <property name="updateItems" value="false"/>
 <property name="visualizeItems" value="false"/>
 <property name="hideCreateItem" value="true"/>
 <property name="expanded" value="false"/>
 <property name="enableTableEnterData" value="false"/>
+</field>
+<field position="3" name="po_total" type="InputTextDouble" id="806505535">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;TOTAL:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="po_in/total"/>
+<property name="outputBinding" value="po_out/total"/>
 </field>
 <field position="4" name="po_description" type="InputTextArea" id="104790732">
 <property name="fieldRequired" value="false"/>
@@ -84,103 +103,7 @@
 <property name="label" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-	&lt;li&gt;Request modification&lt;/li&gt;
-&lt;/ul&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;dequot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;enquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;esquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;frquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;jaquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;ptquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;quot;zhquot;,quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;  &lt;p&gt;&lt;strong&gt;Review status&lt;/strong&gt;&lt;/p&gt;  &lt;hr /&gt; &lt;p&gt;Please, enter any of the following options:&lt;/p&gt;  &lt;ul&gt;  &lt;li&gt;Approve&lt;/li&gt;  &lt;li&gt;Reject&lt;/li&gt;  &lt;li&gt;Request modification&lt;/li&gt; &lt;/ul&gt; quot;"/>
 </field>
 <field position="6" name="review" type="InputText" id="1087410168">
 <property name="fieldRequired" value="true"/>
@@ -203,25 +126,6 @@ quot;"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="review_in"/>
 <property name="outputBinding" value="review_out"/>
-</field>
-<field position="3" name="po_total" type="InputTextDouble" id="806505535">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;TOTAL:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
-<property name="pattern" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="po_in/total"/>
-<property name="outputBinding" value="po_out/total"/>
 </field>
 <dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 <dataHolder inputId="review_in" name="#A7E690" type="basicType" outId="review_out" value="java.lang.String" id="review"/>
