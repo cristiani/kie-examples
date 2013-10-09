@@ -11,20 +11,9 @@
 <property name="label" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Employee&lt;/li&gt;
-	&lt;li&gt;Administration&lt;/li&gt;
-	&lt;li&gt;Manager&lt;/li&gt;
-	&lt;li&gt;Controller&lt;/li&gt;
-	&lt;li&gt;CFO&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;dequot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
-
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Employee&lt;/li&gt;
@@ -33,20 +22,9 @@ quot;quot;dequot;,quot;&lt;p&gt;This process is intended to demonstrate how you 
 	&lt;li&gt;Controller&lt;/li&gt;
 	&lt;li&gt;CFO&lt;/li&gt;
 &lt;/ul&gt;
-quot;quot;enquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Employee&lt;/li&gt;
-	&lt;li&gt;Administration&lt;/li&gt;
-	&lt;li&gt;Manager&lt;/li&gt;
-	&lt;li&gt;Controller&lt;/li&gt;
-	&lt;li&gt;CFO&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;esquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
-
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Employee&lt;/li&gt;
@@ -55,20 +33,9 @@ quot;quot;esquot;,quot;&lt;p&gt;This process is intended to demonstrate how you 
 	&lt;li&gt;Controller&lt;/li&gt;
 	&lt;li&gt;CFO&lt;/li&gt;
 &lt;/ul&gt;
-quot;quot;frquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Employee&lt;/li&gt;
-	&lt;li&gt;Administration&lt;/li&gt;
-	&lt;li&gt;Manager&lt;/li&gt;
-	&lt;li&gt;Controller&lt;/li&gt;
-	&lt;li&gt;CFO&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
-
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Employee&lt;/li&gt;
@@ -77,9 +44,9 @@ quot;quot;jaquot;,quot;&lt;p&gt;This process is intended to demonstrate how you 
 	&lt;li&gt;Controller&lt;/li&gt;
 	&lt;li&gt;CFO&lt;/li&gt;
 &lt;/ul&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Employee&lt;/li&gt;
@@ -88,9 +55,42 @@ quot;quot;ptquot;,quot;&lt;p&gt;This process is intended to demonstrate how you 
 	&lt;li&gt;Controller&lt;/li&gt;
 	&lt;li&gt;CFO&lt;/li&gt;
 &lt;/ul&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;This process is intended to demonstrate how you can build a form based process with data capture, validation and a review and approval cycle.&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
 
-&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Employee&lt;/li&gt;
+	&lt;li&gt;Administration&lt;/li&gt;
+	&lt;li&gt;Manager&lt;/li&gt;
+	&lt;li&gt;Controller&lt;/li&gt;
+	&lt;li&gt;CFO&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Employee&lt;/li&gt;
+	&lt;li&gt;Administration&lt;/li&gt;
+	&lt;li&gt;Manager&lt;/li&gt;
+	&lt;li&gt;Controller&lt;/li&gt;
+	&lt;li&gt;CFO&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Employee&lt;/li&gt;
+	&lt;li&gt;Administration&lt;/li&gt;
+	&lt;li&gt;Manager&lt;/li&gt;
+	&lt;li&gt;Controller&lt;/li&gt;
+	&lt;li&gt;CFO&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;To execute this process, users must have one of the following roles:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;Employee&lt;/li&gt;
