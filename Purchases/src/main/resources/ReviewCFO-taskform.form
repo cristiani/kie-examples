@@ -56,27 +56,27 @@
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;Linesquot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Linesquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value="border:1px dotted #cccccc;padding:5px;width:400px"/>
+<property name="cssStyle" value="width:400px"/>
 <property name="inputBinding" value="po_in/lines"/>
 <property name="outputBinding" value="po_out/lines"/>
 <property name="defaultSubform" value="PurchaseLine.form"/>
 <property name="previewSubform" value="PurchaseLine.form"/>
 <property name="tableSubform" value="PurchaseLine.form"/>
-<property name="newItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="addItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
-<property name="cancelItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="deleteItems" value="false"/>
 <property name="updateItems" value="false"/>
 <property name="visualizeItems" value="false"/>
 <property name="hideCreateItem" value="true"/>
 <property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="false"/>
+<property name="enableTableEnterData" value="true"/>
 </field>
 <field position="4" name="po_total" type="InputTextDouble" id="523965507">
 <property name="fieldRequired" value="false"/>
