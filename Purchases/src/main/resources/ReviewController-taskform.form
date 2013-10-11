@@ -4,28 +4,55 @@
 <property name="name" value="ReviewController-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="4" name="po_description" type="InputTextArea" id="846296525">
+<field position="0" name=":decorator_1" type="HTMLLabel" id="1488245969">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="height" value="3"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Approve&lt;/li&gt;
+	&lt;li&gt;Reject&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Approve&lt;/li&gt;
+	&lt;li&gt;Reject&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+quot;"/>
+</field>
+<field position="1" name="review" type="InputText" id="868145784">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;Review statusquot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
-<property name="readonly" value="true"/>
-<property name="size" value="50"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
+<property name="rangeFormula" value="{approve,Approve order;reject,Reject order;}"/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="po_in/description"/>
-<property name="outputBinding" value="po_out/description"/>
+<property name="inputBinding" value="review_in"/>
+<property name="outputBinding" value="review_out"/>
 </field>
 <field position="2" name="po_header" type="Subform" id="354529548">
 <property name="fieldRequired" value="false"/>
@@ -70,99 +97,28 @@
 <property name="expanded" value="false"/>
 <property name="enableTableEnterData" value="false"/>
 </field>
-<field position="0" name=":decorator_1" type="HTMLLabel" id="1488245969">
+<field position="4" name="po_description" type="InputTextArea" id="846296525">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value=""/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Review order&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please, enter any of the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;Approve&lt;/li&gt;
-	&lt;li&gt;Reject&lt;/li&gt;
-&lt;/ul&gt;
-quot;"/>
-</field>
-<field position="1" name="review" type="InputText" id="868145784">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="height" value="3"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;Review statusquot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
-<property name="readonly" value="false"/>
-<property name="size" value=""/>
+<property name="readonly" value="true"/>
+<property name="size" value="50"/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value="{approve,Approve order;reject,Reject order;}"/>
+<property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="review_in"/>
-<property name="outputBinding" value="review_out"/>
+<property name="inputBinding" value="po_in/description"/>
+<property name="outputBinding" value="po_out/description"/>
 </field>
 <dataHolder inputId="po_in" name="#0000A0" type="dataModelerEntry" outId="po_out" value="org.jbpm.examples.purchases.PurchaseOrder" id="po"/>
 <dataHolder inputId="review_in" name="#A7E690" type="basicType" outId="review_out" value="java.lang.String" id="review"/>
