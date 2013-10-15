@@ -1,0 +1,7 @@
+package org.jbpm.examples.purchases;
+
+rule "DecideAmount"
+	dialect "mvel"
+	when
+	then
+end
