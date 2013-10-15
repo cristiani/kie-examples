@@ -3,7 +3,8 @@ package org.jbpm.examples.purchases;
 rule "DecideAmount"
 	dialect "mvel"
 	when
-		po : PurchaseOrder( total >= 10000 )
+		po : PurchaseOrder( total > = 10000 )
 	then
+		po.setRequiresCFOApproval( true );
 		update( po );
 end
