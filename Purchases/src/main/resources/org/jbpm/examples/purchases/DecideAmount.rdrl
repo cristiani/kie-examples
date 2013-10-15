@@ -5,4 +5,5 @@ rule "DecideAmount"
 	when
 		po : PurchaseOrder( total >= 10000 )
 	then
+		update( po );
 end
