@@ -23,15 +23,19 @@ static final long serialVersionUID = 1L;
     @org.kie.workbench.common.services.datamodeller.annotations.Label(value = "Header")
     @org.kie.api.definition.type.Position(value = 1)
     private org.jbpm.examples.purchases.PurchaseOrderHeader header;
+    
+    @org.kie.api.definition.type.Position(value = 4)
+    private java.lang.Boolean requiresCFOApproval;
 
     public PurchaseOrder() {
     }
 
-    public PurchaseOrder(java.lang.String description, org.jbpm.examples.purchases.PurchaseOrderHeader header, java.util.List<org.jbpm.examples.purchases.PurchaseOrderLine> lines, java.lang.Double total) {
+    public PurchaseOrder(java.lang.String description, org.jbpm.examples.purchases.PurchaseOrderHeader header, java.util.List<org.jbpm.examples.purchases.PurchaseOrderLine> lines, java.lang.Double total, java.lang.Boolean requiresCFOApproval) {
         this.description = description;
         this.header = header;
         this.lines = lines;
         this.total = total;
+        this.requiresCFOApproval = requiresCFOApproval;
     }
 
 
@@ -66,6 +70,14 @@ static final long serialVersionUID = 1L;
 
     public void setHeader(  org.jbpm.examples.purchases.PurchaseOrderHeader header ) {
         this.header = header;
+    }
+    
+    public java.lang.Boolean getRequiresCFOApproval() {
+        return this.requiresCFOApproval;
+    }
+
+    public void setRequiresCFOApproval(  java.lang.Boolean requiresCFOApproval ) {
+        this.requiresCFOApproval = requiresCFOApproval;
     }
 
 
