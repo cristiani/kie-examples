@@ -5,7 +5,8 @@
   <groupId>org.jbpm.examples</groupId>
   <artifactId>purchase-approval</artifactId>
   <version>1.0</version>
-  <name>Purchase Order Approval</name>
+  <name>Purchases</name>
+  <description>This is a demo project that demonstrates how to build a review-approval cycle with complex data models, forms and human tasks</description>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
